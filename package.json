@@ -4,7 +4,8 @@
   "description": "Get, Set and Watch Speaker/Microphone Volume on Windows",
   "main": "dist/index.js",
   "scripts": {
-    "test": "npm i && node sample"
+    "test": "npm i && node sample",
+    "test2": "npm i && node test"
   },
   "author": "Francesco Cannizzaro <francescosaverio.cannizzaro@gmail.com>",
   "license": "MIT",
@@ -21,5 +22,8 @@
     "audio",
     "microphone",
     "windows"
-  ]
+  ],
+  "dependencies": {
+    "nan": "^2.10.0"
+  }
 }

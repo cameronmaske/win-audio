@@ -130,5 +130,8 @@ var init = (mic) => {
 
 module.exports = {
   speaker: init(0),
-  mic: init(1)
+  mic: init(1),
+  getAllDevices: audio.listDevices,
+  getVolumeByDevice: audio.getVolumeByDevice,
+  setVolumeByDevice: audio.setVolumeByDevice,
 };
