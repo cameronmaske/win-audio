@@ -7,6 +7,9 @@
     "test": "npm i && node sample",
     "test2": "npm i && node test"
   },
+  "os": [
+    "win32"
+  ],
   "author": "Francesco Cannizzaro <francescosaverio.cannizzaro@gmail.com>",
   "license": "MIT",
   "gypfile": true,
